@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "education": "Pendidikan",
+    "experience": "Pengalaman",
+    "organization": "Organisasi",
+    "projects": "Proyek",
+    "caseStudy": "Studi Kasus",
+    "certifications": "Sertifikasi",
+    "achievements": "Pencapaian",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Galih Aji Pangestu",
+    "subtitle": "Software Developer",
+    "description": "Membangun pengalaman web yang andal dan berpusat pada manusia. Fokus pada stabilitas, kejelasan, dan solusi nyata.",
+    "downloadCV": "Unduh CV",
+    "contactMe": "Hubungi Saya"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "p1": "Saya percaya bahwa software yang baik dimulai dari pemahaman masalah, bukan dari mengejar teknologi terbaru. Setiap proyek yang saya kerjakan selalu berawal dari pertanyaan: apa yang sebenarnya dibutuhkan pengguna?",
+    "p2": "Stabilitas dan kejelasan adalah dua hal yang selalu saya prioritaskan. Kode yang saya tulis harus mudah dipahami oleh tim, mudah di-maintain, dan tentu saja berfungsi dengan baik.",
+    "highlight1Title": "Performa",
+    "highlight1Desc": "Meningkatkan load time halaman hingga 40% dengan optimasi gambar dan lazy loading",
+    "highlight2Title": "Pengalaman Nyata",
+    "highlight2Desc": "Membangun aplikasi yang digunakan oleh ratusan pengguna aktif setiap hari",
+    "highlight3Title": "Pembelajaran Berkelanjutan",
+    "highlight3Desc": "Rutin mengikuti kursus online dan membaca dokumentasi untuk tetap update"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "items": [
+      { "institution": "Universitas Teknologi Indonesia", "degree": "S1 Teknik Informatika", "year": "2020 - 2024", "focus": "Fokus pada pengembangan web dan rekayasa perangkat lunak" },
+      { "institution": "Dicoding Academy", "degree": "Frontend Developer Path", "year": "2022", "focus": "Mendalami React, JavaScript modern, dan best practices frontend" },
+      { "institution": "Bootcamp Fullstack", "degree": "Intensive Program", "year": "2023", "focus": "Pengembangan aplikasi end-to-end dengan Node.js dan React" }
+    ]
+  },
+  "experience": {
+    "title": "Pengalaman Profesional",
+    "items": [
+      { "role": "Frontend Developer", "company": "Tech Startup XYZ", "period": "2023 - Sekarang", "description": "Mengembangkan landing page dan dashboard untuk klien B2B. Berhasil meningkatkan conversion rate sebesar 25%.", "achievements": ["Optimasi performa hingga 40% lebih cepat", "Implementasi design system yang konsisten", "Kolaborasi dengan tim desain untuk iterasi cepat"] },
+      { "role": "Web Developer (Part-time)", "company": "Digital Agency ABC", "period": "2022 - 2023", "description": "Menyederhanakan dashboard internal yang sebelumnya kompleks. Mengurangi waktu training karyawan baru dari 2 minggu menjadi 3 hari.", "achievements": ["Refactoring kode legacy", "Dokumentasi teknis lengkap", "Mentoring junior developer"] },
+      { "role": "Intern Developer", "company": "Software House DEF", "period": "2021 - 2022", "description": "Fokus pada bug fixing dan penulisan dokumentasi. Berhasil menutup 50+ bug dalam 6 bulan.", "achievements": ["Bug fixing sistematis", "Dokumentasi API komprehensif", "Unit testing implementation"] }
+    ]
+  },
+  "organization": {
+    "title": "Pengalaman Organisasi",
+    "items": [
+      { "name": "Google Developer Student Club", "role": "Core Team - Web Development", "period": "2022 - 2023", "description": "Mengorganisir workshop web development untuk 200+ mahasiswa.", "impact": "200+ peserta workshop" },
+      { "name": "Komunitas Developer Kampus", "role": "Koordinator Teknis", "period": "2021 - 2022", "description": "Memastikan infrastruktur teknis acara berjalan lancar.", "impact": "12 event sukses diselenggarakan" }
+    ]
+  },
+  "projects": {
+    "title": "Proyek",
+    "items": [
+      { "title": "Portfolio Website", "description": "Website portfolio personal dengan React, mendukung dark mode dan bilingual.", "tech": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"], "liveUrl": "#", "sourceUrl": "#" },
+      { "title": "TaskFlow App", "description": "Aplikasi manajemen tugas sederhana dengan fitur drag-and-drop, kategori, dan reminder.", "tech": ["React", "Node.js", "MongoDB", "Socket.io"], "liveUrl": "#", "sourceUrl": "#" },
+      { "title": "WeatherNow", "description": "Aplikasi cuaca berbasis API dengan tampilan minimalis.", "tech": ["React", "OpenWeather API", "Geolocation API"], "liveUrl": "#", "sourceUrl": "#" }
+    ]
+  },
+  "caseStudy": {
+    "title": "Studi Kasus",
+    "items": [
+      { "title": "Transformasi Dashboard Internal", "problem": "Dashboard internal perusahaan memiliki load time 8+ detik dan navigasi yang membingungkan.", "importance": "Dashboard digunakan oleh 50+ karyawan setiap hari untuk operasional bisnis.", "approach": "Memilih pendekatan incremental: optimasi performa dulu, baru redesign UX.", "challenges": "Kode legacy yang tidak terdokumentasi, resistensi dari tim yang sudah terbiasa dengan sistem lama.", "solution": "Membuat dokumentasi kode existing terlebih dahulu, lalu refactoring bertahap.", "results": "Load time turun menjadi 2 detik (75% improvement). Training time karyawan baru berkurang 80%.", "reflection": "Jika mengulang, saya akan lebih awal melibatkan stakeholder dalam proses." }
+    ]
+  },
+  "certifications": {
+    "title": "Sertifikasi",
+    "filters": { "all": "Semua", "web": "Web Development", "ml": "Machine Learning", "general": "General Programming" },
+    "items": [
+      { "name": "React Developer Certificate", "issuer": "Meta (Coursera)", "year": "2023", "category": "web", "skills": ["React", "Redux", "Testing"], "relevance": "Memperdalam pemahaman tentang React ecosystem." },
+      { "name": "JavaScript Algorithms", "issuer": "freeCodeCamp", "year": "2022", "category": "general", "skills": ["JavaScript", "Algorithms", "Problem Solving"], "relevance": "Membangun fondasi kuat dalam logika pemrograman." },
+      { "name": "Machine Learning Fundamentals", "issuer": "Dicoding", "year": "2023", "category": "ml", "skills": ["Python", "TensorFlow", "Data Analysis"], "relevance": "Memahami dasar-dasar ML untuk integrasi AI." }
+    ]
+  },
+  "achievements": {
+    "title": "Pencapaian",
+    "items": [
+      { "title": "Juara 2 Lomba Web Design", "organizer": "Dies Natalis Universitas", "year": "2023", "description": "Kompetisi tingkat universitas dengan 30+ tim peserta." },
+      { "title": "Finalis Hackathon Pemula", "organizer": "Tech Community Regional", "year": "2022", "description": "Masuk 10 besar dari 100+ tim." },
+      { "title": "Best Participant - Bootcamp", "organizer": "Coding Bootcamp XYZ", "year": "2023", "description": "Penghargaan untuk konsistensi dan kualitas kode." }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Saya",
+    "description": "Punya ide menarik atau ingin berkolaborasi? Saya senang mendengar cerita Anda.",
+    "email": "galih@example.com",
+    "copyEmail": "Salin Email",
+    "copied": "Tersalin!",
+    "whatsapp": "WhatsApp",
+    "social": "Media Sosial"
+  },
+  "footer": {
+    "copyright": "Hak Cipta",
+    "allRights": "Semua hak dilindungi.",
+    "downloadCV": "Unduh CV"
+  }
+}

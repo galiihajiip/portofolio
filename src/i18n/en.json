@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "organization": "Organization",
+    "projects": "Projects",
+    "caseStudy": "Case Study",
+    "certifications": "Certifications",
+    "achievements": "Achievements",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Galih Aji Pangestu",
+    "subtitle": "Software Developer",
+    "description": "Building reliable, human-centered web experiences. Focused on stability, clarity, and real solutions.",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I believe that good software starts from understanding the problem, not from chasing the latest technology. Every project I work on always begins with the question: what do users actually need?",
+    "p2": "Stability and clarity are two things I always prioritize. The code I write must be easy for the team to understand, easy to maintain, and of course work well.",
+    "highlight1Title": "Performance",
+    "highlight1Desc": "Improved page load time by 40% through image optimization and lazy loading",
+    "highlight2Title": "Real Experience",
+    "highlight2Desc": "Built applications used by hundreds of active users every day",
+    "highlight3Title": "Continuous Learning",
+    "highlight3Desc": "Regularly taking online courses and reading documentation to stay updated"
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      { "institution": "Indonesia Technology University", "degree": "Bachelor of Informatics Engineering", "year": "2020 - 2024", "focus": "Focus on web development and software engineering" },
+      { "institution": "Dicoding Academy", "degree": "Frontend Developer Path", "year": "2022", "focus": "Deep dive into React, modern JavaScript, and frontend best practices" },
+      { "institution": "Fullstack Bootcamp", "degree": "Intensive Program", "year": "2023", "focus": "End-to-end application development with Node.js and React" }
+    ]
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      { "role": "Frontend Developer", "company": "Tech Startup XYZ", "period": "2023 - Present", "description": "Developing landing pages and dashboards for B2B clients. Successfully increased conversion rate by 25%.", "achievements": ["40% faster performance optimization", "Consistent design system implementation", "Collaboration with design team for rapid iteration"] },
+      { "role": "Web Developer (Part-time)", "company": "Digital Agency ABC", "period": "2022 - 2023", "description": "Simplified a previously complex internal dashboard. Reduced new employee training time from 2 weeks to 3 days.", "achievements": ["Legacy code refactoring", "Complete technical documentation", "Junior developer mentoring"] },
+      { "role": "Intern Developer", "company": "Software House DEF", "period": "2021 - 2022", "description": "Focused on bug fixing and documentation writing. Successfully closed 50+ bugs in 6 months.", "achievements": ["Systematic bug fixing", "Comprehensive API documentation", "Unit testing implementation"] }
+    ]
+  },
+  "organization": {
+    "title": "Organization Experience",
+    "items": [
+      { "name": "Google Developer Student Club", "role": "Core Team - Web Development", "period": "2022 - 2023", "description": "Organized web development workshops for 200+ students.", "impact": "200+ workshop participants" },
+      { "name": "Campus Developer Community", "role": "Technical Coordinator", "period": "2021 - 2022", "description": "Ensured technical infrastructure for events ran smoothly.", "impact": "12 successful events organized" }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      { "title": "Portfolio Website", "description": "Personal portfolio website with React, supporting dark mode and bilingual.", "tech": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"], "liveUrl": "#", "sourceUrl": "#" },
+      { "title": "TaskFlow App", "description": "Simple task management app with drag-and-drop, categories, and reminders.", "tech": ["React", "Node.js", "MongoDB", "Socket.io"], "liveUrl": "#", "sourceUrl": "#" },
+      { "title": "WeatherNow", "description": "API-based weather app with minimalist design.", "tech": ["React", "OpenWeather API", "Geolocation API"], "liveUrl": "#", "sourceUrl": "#" }
+    ]
+  },
+  "caseStudy": {
+    "title": "Case Study",
+    "items": [
+      { "title": "Internal Dashboard Transformation", "problem": "The company's internal dashboard had 8+ second load times and confusing navigation.", "importance": "The dashboard is used by 50+ employees daily for business operations.", "approach": "Chose an incremental approach: optimize performance first, then redesign UX.", "challenges": "Undocumented legacy code, resistance from teams accustomed to the old system.", "solution": "Created documentation for existing code first, then gradual refactoring.", "results": "Load time dropped to 2 seconds (75% improvement). New employee training time reduced by 80%.", "reflection": "If I could do it again, I would involve stakeholders earlier in the process." }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "filters": { "all": "All", "web": "Web Development", "ml": "Machine Learning", "general": "General Programming" },
+    "items": [
+      { "name": "React Developer Certificate", "issuer": "Meta (Coursera)", "year": "2023", "category": "web", "skills": ["React", "Redux", "Testing"], "relevance": "Deepened understanding of React ecosystem." },
+      { "name": "JavaScript Algorithms", "issuer": "freeCodeCamp", "year": "2022", "category": "general", "skills": ["JavaScript", "Algorithms", "Problem Solving"], "relevance": "Built strong foundation in programming logic." },
+      { "name": "Machine Learning Fundamentals", "issuer": "Dicoding", "year": "2023", "category": "ml", "skills": ["Python", "TensorFlow", "Data Analysis"], "relevance": "Understanding ML basics for AI integration." }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "items": [
+      { "title": "2nd Place Web Design Competition", "organizer": "University Anniversary", "year": "2023", "description": "University-level competition with 30+ participating teams." },
+      { "title": "Beginner Hackathon Finalist", "organizer": "Regional Tech Community", "year": "2022", "description": "Top 10 out of 100+ teams." },
+      { "title": "Best Participant - Bootcamp", "organizer": "Coding Bootcamp XYZ", "year": "2023", "description": "Award for consistency and code quality." }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Have an interesting idea or want to collaborate? I'd love to hear your story.",
+    "email": "galih@example.com",
+    "copyEmail": "Copy Email",
+    "copied": "Copied!",
+    "whatsapp": "WhatsApp",
+    "social": "Social Media"
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "allRights": "All rights reserved.",
+    "downloadCV": "Download CV"
+  }
+}
