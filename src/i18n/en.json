@@ -11,21 +11,21 @@
   },
   "hero": {
     "title": "Galih Aji Pangestu",
-    "subtitle": "Software Developer",
-    "description": "Building reliable, human-centered web experiences. Focused on stability, clarity, and real solutions.",
+    "subtitle": "AI Engineer | Full Stack Developer",
+    "description": "Dicoding Community Builder | AI Engineer Cohort @ Pijak x IBM SkillsBuild | Informatics Student @ UPNVJT",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me"
   },
   "about": {
     "title": "About Me",
-    "p1": "I believe that good software starts from understanding the problem, not from chasing the latest technology. Every project I work on always begins with the question: what do users actually need?",
-    "p2": "Stability and clarity are two things I always prioritize. The code I write must be easy for the team to understand, easy to maintain, and of course work well.",
-    "highlight1Title": "Performance",
-    "highlight1Desc": "Improved page load time by 40% through image optimization and lazy loading",
-    "highlight2Title": "Real Experience",
-    "highlight2Desc": "Built applications used by hundreds of active users every day",
-    "highlight3Title": "Continuous Learning",
-    "highlight3Desc": "Regularly taking online courses and reading documentation to stay updated"
+    "p1": "Former small online business owner with 3+ years experience in Instagram marketing, SEO, and content planning. I have hands-on experience growing my own business for three years and completed several virtual internships in the social media field.",
+    "p2": "Currently, I am an Undergraduate Informatics Student at UPN Veteran Jawa Timur with special interest in Website Development and AI Engineering. Active as Community Manager at Dicoding Indonesia and AI Engineer Cohort at Pijak x IBM SkillsBuild.",
+    "highlight1Title": "Community Builder",
+    "highlight1Desc": "Dicoding Community Manager with 2K+ connections and active in various tech communities",
+    "highlight2Title": "AI Engineer",
+    "highlight2Desc": "AI Engineer Cohort @ Pijak x IBM SkillsBuild and Machine Learning Trainee at Indosat & DBS Foundation",
+    "highlight3Title": "Organizational Leader",
+    "highlight3Desc": "Leading various Public Relations divisions and chairing campus organizations"
   },
   "education": {
     "title": "Education",

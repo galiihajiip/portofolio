@@ -11,43 +11,51 @@
   },
   "hero": {
     "title": "Galih Aji Pangestu",
-    "subtitle": "Software Developer",
-    "description": "Membangun pengalaman web yang andal dan berpusat pada manusia. Fokus pada stabilitas, kejelasan, dan solusi nyata.",
+    "subtitle": "AI Engineer | Full Stack Developer",
+    "description": "Dicoding Community Builder | AI Engineer Cohort @ Pijak x IBM SkillsBuild | Informatics Student @ UPNVJT",
     "downloadCV": "Unduh CV",
     "contactMe": "Hubungi Saya"
   },
   "about": {
     "title": "Tentang Saya",
-    "p1": "Saya percaya bahwa software yang baik dimulai dari pemahaman masalah, bukan dari mengejar teknologi terbaru. Setiap proyek yang saya kerjakan selalu berawal dari pertanyaan: apa yang sebenarnya dibutuhkan pengguna?",
-    "p2": "Stabilitas dan kejelasan adalah dua hal yang selalu saya prioritaskan. Kode yang saya tulis harus mudah dipahami oleh tim, mudah di-maintain, dan tentu saja berfungsi dengan baik.",
-    "highlight1Title": "Performa",
-    "highlight1Desc": "Meningkatkan load time halaman hingga 40% dengan optimasi gambar dan lazy loading",
-    "highlight2Title": "Pengalaman Nyata",
-    "highlight2Desc": "Membangun aplikasi yang digunakan oleh ratusan pengguna aktif setiap hari",
-    "highlight3Title": "Pembelajaran Berkelanjutan",
-    "highlight3Desc": "Rutin mengikuti kursus online dan membaca dokumentasi untuk tetap update"
+    "p1": "Mantan pemilik bisnis online kecil dengan pengalaman 3+ tahun di Instagram marketing, SEO, dan content planning. Saya memiliki pengalaman hands-on dalam mengembangkan bisnis sendiri selama tiga tahun dan telah menyelesaikan beberapa virtual internship di bidang social media.",
+    "p2": "Saat ini saya adalah mahasiswa S1 Informatika di UPN Veteran Jawa Timur dengan minat khusus pada Website Development dan AI Engineering. Aktif sebagai Community Manager di Dicoding Indonesia dan AI Engineer Cohort di Pijak x IBM SkillsBuild.",
+    "highlight1Title": "Community Builder",
+    "highlight1Desc": "Dicoding Community Manager dengan 2K+ connections dan aktif di berbagai tech communities",
+    "highlight2Title": "AI Engineer",
+    "highlight2Desc": "AI Engineer Cohort @ Pijak x IBM SkillsBuild dan Machine Learning Trainee di Indosat & DBS Foundation",
+    "highlight3Title": "Organizational Leader",
+    "highlight3Desc": "Memimpin berbagai divisi Humas dan menjadi ketua di organisasi kampus"
   },
   "education": {
     "title": "Pendidikan",
     "items": [
-      { "institution": "Universitas Teknologi Indonesia", "degree": "S1 Teknik Informatika", "year": "2020 - 2024", "focus": "Fokus pada pengembangan web dan rekayasa perangkat lunak" },
-      { "institution": "Dicoding Academy", "degree": "Frontend Developer Path", "year": "2022", "focus": "Mendalami React, JavaScript modern, dan best practices frontend" },
-      { "institution": "Bootcamp Fullstack", "degree": "Intensive Program", "year": "2023", "focus": "Pengembangan aplikasi end-to-end dengan Node.js dan React" }
+      { "institution": "Universitas Pembangunan Nasional Veteran Jawa Timur", "degree": "S1 Informatika", "year": "2024 - 2028", "focus": "Fokus pada pengembangan web, AI, dan machine learning" },
+      { "institution": "STMIK AMIKOM Surakarta", "degree": "Informatika (Alumni)", "year": "2023 - 2024", "focus": "Dasar-dasar ilmu komputer dan pemrograman" },
+      { "institution": "Dicoding Academy", "degree": "Various Certifications", "year": "2022 - Present", "focus": "Front-End Web Development, Python, Git, dan berbagai teknologi" },
+      { "institution": "SMA Negeri 1 Surakarta", "degree": "Ilmu Sosial", "year": "2020 - 2023", "focus": "Pendidikan menengah atas" }
     ]
   },
   "experience": {
     "title": "Pengalaman Profesional",
     "items": [
-      { "role": "Frontend Developer", "company": "Tech Startup XYZ", "period": "2023 - Sekarang", "description": "Mengembangkan landing page dan dashboard untuk klien B2B. Berhasil meningkatkan conversion rate sebesar 25%.", "achievements": ["Optimasi performa hingga 40% lebih cepat", "Implementasi design system yang konsisten", "Kolaborasi dengan tim desain untuk iterasi cepat"] },
-      { "role": "Web Developer (Part-time)", "company": "Digital Agency ABC", "period": "2022 - 2023", "description": "Menyederhanakan dashboard internal yang sebelumnya kompleks. Mengurangi waktu training karyawan baru dari 2 minggu menjadi 3 hari.", "achievements": ["Refactoring kode legacy", "Dokumentasi teknis lengkap", "Mentoring junior developer"] },
-      { "role": "Intern Developer", "company": "Software House DEF", "period": "2021 - 2022", "description": "Fokus pada bug fixing dan penulisan dokumentasi. Berhasil menutup 50+ bug dalam 6 bulan.", "achievements": ["Bug fixing sistematis", "Dokumentasi API komprehensif", "Unit testing implementation"] }
+      { "role": "AI Engineer Cohort", "company": "Pijak x IBM SkillsBuild", "period": "Des 2025 - Sekarang", "description": "Mengikuti program pelatihan AI Engineering intensif dengan fokus pada machine learning dan AI development.", "achievements": ["Belajar AI/ML frameworks", "Hands-on projects", "Kolaborasi dengan IBM"] },
+      { "role": "Community Manager", "company": "Dicoding Indonesia", "period": "Okt 2025 - Sekarang", "description": "Mengelola komunitas developer Indonesia, mengorganisir event, dan memfasilitasi pembelajaran teknologi.", "achievements": ["Mengelola komunitas 2K+ members", "Mengorganisir tech events", "Membangun engagement komunitas"] },
+      { "role": "Machine Learning Engineer Trainee", "company": "Indosat Ooredoo Hutchison Digital Camp", "period": "Jul 2025 - Sekarang", "description": "Pelatihan intensif machine learning dengan fokus pada implementasi praktis dan real-world projects.", "achievements": ["ML model development", "Data analysis", "Team collaboration"] },
+      { "role": "Machine Learning Engineer Trainee", "company": "Coding Camp powered by DBS Foundation", "period": "Jan 2025 - Sekarang", "description": "Program pelatihan machine learning dengan mentorship dari industry experts.", "achievements": ["Python programming", "ML algorithms", "Project implementation"] },
+      { "role": "Social Media Strategist", "company": "Coach Potato", "period": "Feb 2024 - Okt 2024", "description": "Merancang dan mengimplementasikan strategi social media untuk meningkatkan brand awareness dan engagement.", "achievements": ["Content strategy planning", "Social media management", "Analytics & reporting"] },
+      { "role": "Small Business Owner", "company": "Gapz Store", "period": "Feb 2020 - Mar 2023", "description": "Mengelola bisnis online sendiri, menjual akun game mobile dengan fokus pada Instagram marketing dan SEO.", "achievements": ["3+ tahun pengalaman bisnis", "Instagram marketing & SEO", "Customer relationship management"] }
     ]
   },
   "organization": {
     "title": "Pengalaman Organisasi",
     "items": [
-      { "name": "Google Developer Student Club", "role": "Core Team - Web Development", "period": "2022 - 2023", "description": "Mengorganisir workshop web development untuk 200+ mahasiswa.", "impact": "200+ peserta workshop" },
-      { "name": "Komunitas Developer Kampus", "role": "Koordinator Teknis", "period": "2021 - 2022", "description": "Memastikan infrastruktur teknis acara berjalan lancar.", "impact": "12 event sukses diselenggarakan" }
+      { "name": "HIMATIFA UPNV JATIM", "role": "Kepala Divisi Humas PIXEL 2025", "period": "Sep 2025 - Sekarang", "description": "Memimpin divisi humas untuk event PIXEL 2025, mengelola komunikasi eksternal dan internal.", "impact": "Koordinasi event besar kampus" },
+      { "name": "HIMATIFA UPNV JATIM", "role": "Wakil Ketua SPEAK UP 2025", "period": "Jun 2025 - Sekarang", "description": "Membantu memimpin program SPEAK UP 2025 dan koordinasi dengan berbagai stakeholder.", "impact": "Leadership & event management" },
+      { "name": "Bibliotopia UPN Veteran Jawa Timur", "role": "Kepala Divisi Humas", "period": "Sep 2025 - Sekarang", "description": "Mengelola komunikasi dan publikasi untuk perpustakaan kampus.", "impact": "Meningkatkan awareness perpustakaan" },
+      { "name": "BLM FASILKOM UPN Veteran Jawa Timur", "role": "Ketua Komisi 1", "period": "Apr 2025 - Sekarang", "description": "Memimpin komisi 1 di Badan Legislatif Mahasiswa Fakultas Ilmu Komputer.", "impact": "Representasi mahasiswa" },
+      { "name": "SUKUNERGY", "role": "Chief Technology Officer", "period": "Agu 2025 - Sekarang", "description": "Memimpin pengembangan teknologi dan strategi digital untuk SUKUNERGY.", "impact": "Tech leadership" },
+      { "name": "UKM Cyber AMIKOM Surakarta", "role": "Koordinator Divisi Humas & Media Informasi", "period": "Nov 2023 - Jul 2024", "description": "Mengelola Instagram, copywriting, dan content planning untuk UKM Cyber.", "impact": "Social media growth" }
     ]
   },
   "projects": {
@@ -62,23 +70,27 @@
     "title": "Sertifikasi",
     "filters": { "all": "Semua", "web": "Web Development", "ml": "Machine Learning", "general": "General Programming" },
     "items": [
-      { "name": "React Developer Certificate", "issuer": "Meta (Coursera)", "year": "2023", "category": "web", "skills": ["React", "Redux", "Testing"], "relevance": "Memperdalam pemahaman tentang React ecosystem." },
-      { "name": "JavaScript Algorithms", "issuer": "freeCodeCamp", "year": "2022", "category": "general", "skills": ["JavaScript", "Algorithms", "Problem Solving"], "relevance": "Membangun fondasi kuat dalam logika pemrograman." },
-      { "name": "Machine Learning Fundamentals", "issuer": "Dicoding", "year": "2023", "category": "ml", "skills": ["Python", "TensorFlow", "Data Analysis"], "relevance": "Memahami dasar-dasar ML untuk integrasi AI." }
+      { "name": "Offline Training Front-End Web Developer", "issuer": "IDCamp x KADIN 2023", "year": "2023", "category": "web", "skills": ["HTML", "CSS", "JavaScript", "React"], "relevance": "Pelatihan intensif pengembangan web front-end." },
+      { "name": "Memulai Pemrograman dengan Python", "issuer": "Dicoding", "year": "2022", "category": "general", "skills": ["Python", "Programming Basics"], "relevance": "Fondasi pemrograman Python untuk AI/ML." },
+      { "name": "Algoritma Pemrograman Dengan Bahasa C", "issuer": "Dicoding", "year": "2022", "category": "general", "skills": ["C Programming", "Algorithms"], "relevance": "Pemahaman algoritma dan struktur data." },
+      { "name": "Belajar GIT untuk Pemula", "issuer": "Dicoding", "year": "2022", "category": "general", "skills": ["Git", "Version Control"], "relevance": "Version control untuk kolaborasi tim." },
+      { "name": "Networking Devices and Initial Configuration", "issuer": "Cisco", "year": "2023", "category": "general", "skills": ["Networking", "Cisco"], "relevance": "Pemahaman dasar networking dan konfigurasi." }
     ]
   },
   "achievements": {
     "title": "Pencapaian",
     "items": [
-      { "title": "Juara 2 Lomba Web Design", "organizer": "Dies Natalis Universitas", "year": "2023", "description": "Kompetisi tingkat universitas dengan 30+ tim peserta." },
-      { "title": "Finalis Hackathon Pemula", "organizer": "Tech Community Regional", "year": "2022", "description": "Masuk 10 besar dari 100+ tim." },
-      { "title": "Best Participant - Bootcamp", "organizer": "Coding Bootcamp XYZ", "year": "2023", "description": "Penghargaan untuk konsistensi dan kualitas kode." }
+      { "title": "Juara Harapan 1 Essay", "organizer": "Indoneris National IT Competition 2023", "year": "2023", "description": "Meraih juara harapan 1 dalam kompetisi essay tingkat nasional." },
+      { "title": "Gold Medalist", "organizer": "Various Competitions", "year": "2023-2024", "description": "Meraih medali emas di berbagai kompetisi teknologi dan akademik." },
+      { "title": "Scholarship Awardee", "organizer": "Multiple Institutions", "year": "2023-2025", "description": "Penerima beasiswa dari berbagai institusi untuk prestasi akademik dan organisasi." },
+      { "title": "Google Cloud Arcade Facilitator", "organizer": "Google Cloud", "year": "2025", "description": "Terpilih sebagai fasilitator program Google Cloud Arcade." },
+      { "title": "Tech & Startup Mentee", "organizer": "StudentsxCEOs East Java", "year": "2025", "description": "Mengikuti program mentorship teknologi dan startup." }
     ]
   },
   "contact": {
     "title": "Hubungi Saya",
     "description": "Punya ide menarik atau ingin berkolaborasi? Saya senang mendengar cerita Anda.",
-    "email": "galih@example.com",
+    "email": "24081010123@student.upnjatim.ac.id",
     "copyEmail": "Salin Email",
     "copied": "Tersalin!",
     "whatsapp": "WhatsApp",

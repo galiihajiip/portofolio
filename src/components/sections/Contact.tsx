@@ -5,15 +5,15 @@ import { Mail, Copy, Check, MessageCircle, Github, Linkedin, Instagram } from 'l
 import { Section } from '../ui/Section';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/galihajipangestu', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/galihajipangestu', label: 'LinkedIn' },
-  { icon: Instagram, href: 'https://instagram.com/galihajipangestu', label: 'Instagram' },
+  { icon: Github, href: 'https://github.com/galiihajiip', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/galiihajiip', label: 'LinkedIn' },
+  { icon: Instagram, href: 'https://instagram.com/galiihajiip', label: 'Instagram' },
 ];
 
 export function Contact() {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
-  const email = 'galih@example.com';
+  const email = '24081010123@student.upnjatim.ac.id';
 
   const copyEmail = async () => {
     await navigator.clipboard.writeText(email);
@@ -48,7 +48,7 @@ export function Contact() {
           </motion.div>
 
           <motion.a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6282265588823"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 10 }}

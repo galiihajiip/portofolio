@@ -3,9 +3,9 @@ import { Github, Linkedin, Instagram, Mail, Download } from 'lucide-react';
 import { Container } from '../ui/Container';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/galihajipangestu', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/galihajipangestu', label: 'LinkedIn' },
-  { icon: Instagram, href: 'https://instagram.com/galihajipangestu', label: 'Instagram' },
+  { icon: Github, href: 'https://github.com/galiihajiip', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/galiihajiip', label: 'LinkedIn' },
+  { icon: Instagram, href: 'https://instagram.com/galiihajiip', label: 'Instagram' },
 ];
 
 const quickLinks = [
@@ -27,7 +27,9 @@ export function Footer() {
             <h3 className="text-lg font-bold text-[var(--text-primary)] mb-4">
               Galih Aji Pangestu
             </h3>
-            <p className="text-[var(--text-secondary)] text-sm mb-4">Software Developer</p>
+            <p className="text-[var(--text-secondary)] text-sm mb-4">
+              AI Engineer | Full Stack Developer
+            </p>
             <a
               href="/cv.pdf"
               download
@@ -76,11 +78,11 @@ export function Footer() {
               ))}
             </div>
             <a
-              href="mailto:galih@example.com"
+              href="mailto:24081010123@student.upnjatim.ac.id"
               className="inline-flex items-center gap-2 text-[var(--text-secondary)] hover:text-[var(--text-primary)] text-sm transition-colors"
             >
               <Mail className="w-4 h-4" />
-              galih@example.com
+              24081010123@student.upnjatim.ac.id
             </a>
           </div>
         </div>
