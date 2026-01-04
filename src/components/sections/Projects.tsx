@@ -26,7 +26,7 @@ export function Projects() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: index * 0.1 }}
             whileHover={{ y: -4 }}
-            className="group rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] overflow-hidden hover:border-[var(--border-light)] hover:shadow-lg hover:shadow-black/20 transition-all duration-300"
+            className="glow-card group rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] overflow-hidden hover:border-[var(--accent-primary)]/50 hover:shadow-xl hover:shadow-[var(--accent-primary)]/10 transition-all duration-300"
           >
             <div className="h-48 bg-[var(--bg-tertiary)] flex items-center justify-center text-6xl">
               {index === 0 ? '🌐' : index === 1 ? '📋' : '🌤️'}
@@ -46,7 +46,8 @@ export function Projects() {
                   href={item.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm rounded bg-[var(--text-primary)] text-[var(--bg-primary)] hover:opacity-90 transition-opacity"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm rounded text-white hover:opacity-90 transition-opacity"
+                  style={{ background: 'var(--accent-gradient)' }}
                 >
                   <ExternalLink className="w-4 h-4" />
                   Live Demo
@@ -55,7 +56,7 @@ export function Projects() {
                   href={item.sourceUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm rounded border border-[var(--border-color)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--border-light)] transition-colors"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm rounded border border-[var(--accent-primary)] text-[var(--accent-primary)] hover:bg-[var(--accent-primary)] hover:text-white transition-all"
                 >
                   <Github className="w-4 h-4" />
                   Source

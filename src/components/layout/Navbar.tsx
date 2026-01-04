@@ -90,7 +90,7 @@ export function Navbar() {
                 }}
                 className={`px-3 py-2 text-sm rounded-md transition-colors ${
                   activeSection === item.href.slice(1)
-                    ? 'text-[var(--text-primary)] bg-[var(--bg-tertiary)]'
+                    ? 'text-white bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)]'
                     : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-secondary)]'
                 }`}
               >
@@ -147,7 +147,7 @@ export function Navbar() {
                   }}
                   className={`block px-3 py-2 rounded-md transition-colors ${
                     activeSection === item.href.slice(1)
-                      ? 'text-[var(--text-primary)] bg-[var(--bg-tertiary)]'
+                      ? 'text-white bg-gradient-to-r from-[var(--accent-primary)] to-[var(--accent-secondary)]'
                       : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-secondary)]'
                   }`}
                 >

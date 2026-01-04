@@ -32,11 +32,11 @@ export function About() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="p-6 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] hover:border-[var(--border-light)] transition-colors"
+              className="glow-card p-6 rounded-lg bg-[var(--bg-secondary)] border border-[var(--border-color)] hover:border-[var(--accent-primary)]/50 transition-all"
             >
               <div className="flex items-start gap-4">
-                <div className="p-2 rounded-md bg-[var(--bg-tertiary)]">
-                  <item.icon className="w-5 h-5 text-[var(--text-primary)]" />
+                <div className="p-2 rounded-md bg-gradient-to-br from-[var(--accent-primary)] to-[var(--accent-secondary)]">
+                  <item.icon className="w-5 h-5 text-white" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-[var(--text-primary)] mb-1">

@@ -31,7 +31,8 @@ export function Footer() {
             <a
               href="/cv.pdf"
               download
-              className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--text-primary)] text-[var(--bg-primary)] rounded-md text-sm font-medium hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium text-white hover:opacity-90 transition-opacity"
+              style={{ background: 'var(--accent-gradient)' }}
             >
               <Download className="w-4 h-4" />
               {t('footer.downloadCV')}
