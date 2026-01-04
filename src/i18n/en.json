@@ -5,7 +5,6 @@
     "experience": "Experience",
     "organization": "Organization",
     "projects": "Projects",
-    "caseStudy": "Case Study",
     "certifications": "Certifications",
     "achievements": "Achievements",
     "contact": "Contact"
@@ -57,12 +56,6 @@
       { "title": "Portfolio Website", "description": "Personal portfolio website with React, supporting dark mode and bilingual.", "tech": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"], "liveUrl": "#", "sourceUrl": "#" },
       { "title": "TaskFlow App", "description": "Simple task management app with drag-and-drop, categories, and reminders.", "tech": ["React", "Node.js", "MongoDB", "Socket.io"], "liveUrl": "#", "sourceUrl": "#" },
       { "title": "WeatherNow", "description": "API-based weather app with minimalist design.", "tech": ["React", "OpenWeather API", "Geolocation API"], "liveUrl": "#", "sourceUrl": "#" }
-    ]
-  },
-  "caseStudy": {
-    "title": "Case Study",
-    "items": [
-      { "title": "Internal Dashboard Transformation", "problem": "The company's internal dashboard had 8+ second load times and confusing navigation.", "importance": "The dashboard is used by 50+ employees daily for business operations.", "approach": "Chose an incremental approach: optimize performance first, then redesign UX.", "challenges": "Undocumented legacy code, resistance from teams accustomed to the old system.", "solution": "Created documentation for existing code first, then gradual refactoring.", "results": "Load time dropped to 2 seconds (75% improvement). New employee training time reduced by 80%.", "reflection": "If I could do it again, I would involve stakeholders earlier in the process." }
     ]
   },
   "certifications": {

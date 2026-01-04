@@ -5,7 +5,6 @@
     "experience": "Pengalaman",
     "organization": "Organisasi",
     "projects": "Proyek",
-    "caseStudy": "Studi Kasus",
     "certifications": "Sertifikasi",
     "achievements": "Pencapaian",
     "contact": "Kontak"
@@ -57,12 +56,6 @@
       { "title": "Portfolio Website", "description": "Website portfolio personal dengan React, mendukung dark mode dan bilingual.", "tech": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"], "liveUrl": "#", "sourceUrl": "#" },
       { "title": "TaskFlow App", "description": "Aplikasi manajemen tugas sederhana dengan fitur drag-and-drop, kategori, dan reminder.", "tech": ["React", "Node.js", "MongoDB", "Socket.io"], "liveUrl": "#", "sourceUrl": "#" },
       { "title": "WeatherNow", "description": "Aplikasi cuaca berbasis API dengan tampilan minimalis.", "tech": ["React", "OpenWeather API", "Geolocation API"], "liveUrl": "#", "sourceUrl": "#" }
-    ]
-  },
-  "caseStudy": {
-    "title": "Studi Kasus",
-    "items": [
-      { "title": "Transformasi Dashboard Internal", "problem": "Dashboard internal perusahaan memiliki load time 8+ detik dan navigasi yang membingungkan.", "importance": "Dashboard digunakan oleh 50+ karyawan setiap hari untuk operasional bisnis.", "approach": "Memilih pendekatan incremental: optimasi performa dulu, baru redesign UX.", "challenges": "Kode legacy yang tidak terdokumentasi, resistensi dari tim yang sudah terbiasa dengan sistem lama.", "solution": "Membuat dokumentasi kode existing terlebih dahulu, lalu refactoring bertahap.", "results": "Load time turun menjadi 2 detik (75% improvement). Training time karyawan baru berkurang 80%.", "reflection": "Jika mengulang, saya akan lebih awal melibatkan stakeholder dalam proses." }
     ]
   },
   "certifications": {

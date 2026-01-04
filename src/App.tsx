@@ -7,7 +7,6 @@ import {
   Experience,
   Organization,
   Projects,
-  CaseStudy,
   Certifications,
   Achievements,
   Contact,
@@ -24,7 +23,6 @@ function App() {
         <Experience />
         <Organization />
         <Projects />
-        <CaseStudy />
         <Certifications />
         <Achievements />
         <Contact />
