@@ -1,10 +1,21 @@
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
 import { Container } from '../ui/Container';
+import { useState, useEffect } from 'react';
+
+const roles = ['Software Engineer', 'AI Engineer'];
 
 export function Hero() {
   const { t } = useTranslation();
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentRoleIndex((prev) => (prev + 1) % roles.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section id="hero" className="min-h-screen flex items-center pt-16 relative overflow-hidden">
@@ -19,9 +30,20 @@ export function Hero() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
               <span className="gradient-text">{t('hero.title')}</span>
             </h1>
-            <p className="text-xl sm:text-2xl text-[var(--text-secondary)] mb-6">
-              {t('hero.subtitle')}
-            </p>
+            <div className="h-16 sm:h-20 flex items-center mb-6">
+              <AnimatePresence mode="wait">
+                <motion.p
+                  key={currentRoleIndex}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.5 }}
+                  className="text-xl sm:text-2xl text-[var(--text-secondary)]"
+                >
+                  {roles[currentRoleIndex]}
+                </motion.p>
+              </AnimatePresence>
+            </div>
             <p className="text-lg text-[var(--text-muted)] mb-8 max-w-lg">
               {t('hero.description')}
             </p>

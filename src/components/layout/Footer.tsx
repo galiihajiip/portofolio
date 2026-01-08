@@ -28,7 +28,7 @@ export function Footer() {
               Galih Aji Pangestu
             </h3>
             <p className="text-[var(--text-secondary)] text-sm mb-4">
-              AI Engineer | Full Stack Developer
+              Software Engineer | AI Engineer
             </p>
             <a
               href="/cv.pdf"
